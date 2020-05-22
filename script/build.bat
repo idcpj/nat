@@ -24,7 +24,7 @@ goto :EOF
 
     xcopy/ye   ..\config\%1.yaml  ..\build\windows\%1_server\config\
 
-    go build -ldflags "-w -s" -gcflags "all=-N -l"  -o ..\build\windows\%1_server\bin\${1}_server.exe  ..\cmd\%1_server.go
+    go build -ldflags "-w -s" -gcflags "all=-N -l"  -o ..\build\windows\%1_server\bin\%1_server.exe  ..\cmd\%1_server.go
 
 goto:EOF
 
