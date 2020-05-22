@@ -1,0 +1,8 @@
+# 连接公网ip 暴露给内网所在的端口
+RegisterAddress: "tcp://192.168.0.130:6650"
+
+# 内网连接 登录服务
+ProxyAddress: "tcp://127.0.0.1:6661"
+
+# 验证
+AuthKey: "www.upsoft01.com"

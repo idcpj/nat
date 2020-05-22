@@ -1,0 +1,8 @@
+#监听用于内网连接的端口
+InnerServerAddress: "tcp://0.0.0.0:6650"
+
+# 暴露给公网的ip
+OuterServerAddress: "tcp://0.0.0.0:6660"
+
+# 验证
+AuthKey: "www.upsoft01.com"
