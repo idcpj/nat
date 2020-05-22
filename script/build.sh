@@ -13,7 +13,7 @@ build() {
 
   \cp ../config/${1}.yaml ../build/linux/${1}_server/config/
 
-  go build -ldflags "-w -s" -gcflags "all=-N -l" -o ../build/linux/${1}_server/bin ../cmd/${1}_server.go
+  go build -ldflags "-w -s" -gcflags "all=-N -l" -o ../build/linux/${1}_server/bin/${1}_server ../cmd/${1}_server.go
 
 }
 
